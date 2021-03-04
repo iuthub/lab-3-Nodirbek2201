@@ -1,7 +1,15 @@
+
+body{
+    margin-left:10%;
+    margin-right:10%;
+    background-image:url("./image/bg.jpg");
+}
 .container{
     width: 80%;
     margin: 0 auto;
     border: 5px solid green;
+    background-color: white;
+    
 }
 .card-header{
     border:5px solid red;
@@ -11,13 +19,19 @@
 }
 .card-body{
     border: 5px solid #0000FF;
+    background-color:#E8FBFB;
+    margin-top:10px;
+    padding:5px;
 }
-/* .card-body h2{
-    border: 5px solid #800080;
-} */
 .card-body h2 span{
     border:5px solid #800080;
 }
 .card-basic h2 span{
 border:5px solid #800080;
+}
+.card-footer{
+    border:5px solid #0000FF;
+    background-color:#E8FBFB;
+    margin-top:10px;
+    padding:5px;
 }
