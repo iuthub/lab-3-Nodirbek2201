@@ -1,0 +1,23 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid green;
+}
+.card-header{
+    border:5px solid red;
+}
+.card-header h2{
+    border: 5px solid #FFA500;
+}
+.card-body{
+    border: 5px solid #0000FF;
+}
+/* .card-body h2{
+    border: 5px solid #800080;
+} */
+.card-body h2 span{
+    border:5px solid #800080;
+}
+.card-basic h2 span{
+border:5px solid #800080;
+}
